@@ -17,7 +17,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "install-n8n": "npm install -g n8n@1.73.1",
+    "install-n8n": "npm install && npm install -g n8n@1.73.1",
     "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
