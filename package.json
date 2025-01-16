@@ -24,7 +24,7 @@
     "lint": "eslint nodes credentials package.json",
     "lintfix": "eslint nodes credentials package.json --fix",
     "prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes credentials package.json",
-    "test": "npm run build && n8n start"
+    "test": "npm run build && n8n start --tunnel"
   },
   "files": [
     "dist"
