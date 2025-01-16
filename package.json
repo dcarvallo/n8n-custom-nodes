@@ -17,7 +17,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "install-n8n": "npm install && npm update && npx n8n && npm install n8n@latest -g",
+    "install-n8n": "npm install && npm update && npx n8n && npm install n8n@1.74.0 -g",
     "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
